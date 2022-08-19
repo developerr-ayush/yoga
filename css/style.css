@@ -1,0 +1,442 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.buttonCommon{
+    background-color: #f0c9c3;
+    border: none;
+    padding: 10px 17px;
+    color: #484e5a;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid #f0c9c3;
+}
+p{
+    font-weight: 600;
+   margin: 50px 0;
+   font-size: 16px;
+   color: #656b78;
+
+}
+/* navbar  */
+.navbar-expand-lg .navbar-nav .nav-link{
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+/* navbar  */
+
+/* banner  */
+.banner{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 100px 0;
+}
+h1{
+    
+    font-size: 50px;
+    font-weight: 700;
+    color: #484e5a;
+    
+}
+.rightTopImage{
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    width: 80px;
+}
+.rightTopImage::after{
+    width: 120px;
+    height: 120px;
+    z-index: -5;
+    background-color: #bcbdc0;
+    content: "";
+    position: absolute;
+    right: -90px;
+    top: 20px;
+    border-radius:  50px ;
+    transform: rotate(40deg);
+}
+.rightTopImage img{
+    width: 70%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.rightTopImage img:last-child{
+    right: 45px;
+    width: 140%;
+}
+
+.rightBottomImage{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+}
+.rightBottomImage img{
+    position: absolute;
+    right: 0;
+}
+.rightBottomImage img:last-child{
+    top: 100px;
+}
+
+
+.leftCenterImage img{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    width: 100px;
+}
+.leftCenterImage img:last-child{
+
+    top: 35%;
+    left: 10%;
+}
+.leftTopImage::after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: -100px;
+    width: 200px;
+    height: 200px;
+    background-color: #bcbdc0;
+    border-radius: 40px;
+    transform: rotate(10deg);
+    z-index: -2;
+}
+.leftTopImage img{
+    position: absolute;
+    top: 50px;
+    left: -50px;
+
+}
+/* banner  */
+
+
+
+/* program section  */
+
+.program {
+    width: 100%;
+    min-height:100vh ;
+    background-image: url(../img/2.png);
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+ h2{
+    color: #484e5a;
+    font-size: 50px;
+}
+/* program section  */
+
+/* three program section  */
+.threeProgram{
+    text-align: center;
+}
+.threeProgram img{
+    width: 100%;
+    max-width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.threeProgram h4{
+    margin: 0;
+    color: #484e5a;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.threeProgram p{
+    margin: 0;
+}
+
+/* three program section  */
+/* pranayam */
+.pranayam{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+}
+.sectionSpace{
+    margin: 100px auto;
+}
+.socialMedia{
+    display:flex;
+
+}
+.socialMediaIndividual{
+    margin-right: 30px;
+}
+.socialMediaIndividual .fa-brands{
+    font-size: 35px;
+    color: #fff;
+}
+.pranayam .col-lg-6{
+    margin: 20px 0;
+}
+.pranayamLeftTopImage{
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.pranayamLeftTopImage img{
+    position: absolute;
+    z-index: -2;
+    top: 0;
+}
+.pranayamLeftTopImage img:last-child{
+    top: 80%;
+    left: 0;
+}
+.imageSection{
+    position: relative;
+}
+.imageSection .frameTopleft{
+    position: absolute;
+    top: -20px;
+    left: -40px;
+    z-index: -2;
+}
+.imageSection .frameTopleft img{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+.imageSection .frameTopleft img:last-child{
+    left: -50px;
+}
+.imageSection .frameTopRight {
+    position: absolute;
+    top: -50px;
+    right: -80px;
+    z-index: -2;
+}
+.imageSection .frameBottomLeft {
+    position: absolute;
+    bottom: -10px;
+    left: -45px;
+}
+.imageSection .frameBottomRight {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+}
+.imageSection .frameBottomRight img{
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+}
+.imageSection .frameBottomRight img:last-child{
+    position: absolute;
+    bottom: -60px;
+    width: 180px;
+    right: -5px;
+    transform: rotate(-80deg);
+    z-index: -2;
+}
+/* joinNow   */
+
+.joinNow {
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    background-position: center;
+    min-height: 70vh;
+    background-color: #f3f1ef;
+    background-image: url(../img/4.png);
+    background-size: cover;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+/* gallerySectionParent  */
+.gallerySectionParent {
+    text-align: center;
+    position: relative;
+    overflow: hidden;    
+    padding: 100px 0;
+}
+.gallerySectionParent .GallerySection{
+    margin: 10px 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px 5px -2px;
+}
+.gallerySectionParent .GallerySection h4{
+    padding: 10px 10px;
+    font-size: 30px;
+    color: #484e5a;
+}
+.gallerySectionParent .GallerySection p{
+    padding: 0px 10px 10px;
+    margin: 0;
+}
+.gallerySectionImages{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.gallerySectionImages .topLeft{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.gallerySectionImages .topLeft img{
+    position: absolute;
+    top: 170px;
+    left: 80px;
+}
+.gallerySectionImages .topRight{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.gallerySectionImages .topRight img{
+    position: absolute;
+    top: -50px;
+    right: -90px;
+}
+.gallerySectionImages .topCenter{
+    position: absolute;
+    top:60%;
+    right: 30%;
+}
+.gallerySectionImages .topCenter img{
+    position: absolute;
+    top: -50px;
+    right: -90px;
+}
+.gallerySectionImages .bottomLeft{
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+}
+.gallerySectionImages .bottomLeft img{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.gallerySectionImages .bottomRight{
+    position: absolute;
+    bottom: -0px;
+    right: -0px;
+}
+.gallerySectionImages .bottomRight img{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+/* yogaTraining */
+
+.yogaTraining {
+    padding: 100px 0;
+    background-color: #f0c9c3;
+    
+}
+.yogaTraining .fa-brands{
+    color: #484e5a;
+}
+/* getInTouch  */
+.getInTouch{
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+/* footer  */
+footer{
+    padding: 50px 0;
+    background-color: #484e5a;
+    color: #fff;
+}
+footer h4{
+    margin-bottom: 40px;
+}
+footer h4 + p{
+    margin-bottom: 40px;
+}
+footer p{
+    margin: 10px 0;
+    color: #fff;
+    font-weight: 400;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+@media (max-width:991px) {
+    h1{
+        font-size: 30px;
+    }
+    p{
+        margin: 10px 0;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .threeProgram .col-md-4{
+        margin: 20px 0;
+    }
+    .sectionSpace{
+        margin: 30px auto;
+    }
+    .program{
+        background-position: left;
+    }
+    
+}
+@media (max-width:576px) {
+    .leftTopImage img{
+        width: 200px;
+        top: 70px;
+    }
+    .leftTopImage::after{
+        width: 100px;
+        left: -30px;
+        height:150px;
+    }
+    .leftCenterImage img{
+        display: none;
+    }
+    .banner {
+        padding: 100px 0;
+    }
+    .rightBottomImage img{
+        width: 150px;
+        top: 80px;
+    }
+    h2{
+        font-size: 26px;
+    }
+    .frameSide img{
+        width: 100px;
+    }
+    .imageSection{
+        margin-top: 50px;
+    }
+    .joinNow{
+        background-position: right;
+    }
+}
