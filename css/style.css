@@ -1,9 +1,9 @@
-*{
+* {
     font-family: 'Open Sans', sans-serif;
 }
 
 
-.buttonCommon{
+.buttonCommon {
     background-color: #f0c9c3;
     border: none;
     padding: 10px 17px;
@@ -13,28 +13,38 @@
     font-weight: 700;
     text-transform: uppercase;
     border: 2px solid #f0c9c3;
+    cursor: pointer;
+    transition: .3s;
 }
-p{
+
+.buttonCommon:hover {
+    transform: skew(-10deg);
+}
+
+p {
     font-weight: 600;
-   margin: 50px 0;
-   font-size: 16px;
-   color: #656b78;
+    margin: 50px 0;
+    font-size: 16px;
+    color: #656b78;
 
 }
+
 /* navbar  */
-.navbar-expand-lg .navbar-nav .nav-link{
+.navbar-expand-lg .navbar-nav .nav-link {
     margin-left: 20px;
     display: inline-block;
     font-size: 18px;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     border: 0 !important;
     box-shadow: none !important;
 }
+
 /* navbar  */
 
 /* banner  */
-.banner{
+.banner {
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -44,20 +54,23 @@ p{
     position: relative;
     padding: 100px 0;
 }
-h1{
-    
+
+h1 {
+
     font-size: 50px;
     font-weight: 700;
     color: #484e5a;
-    
+
 }
-.rightTopImage{
+
+.rightTopImage {
     position: absolute;
     top: 90px;
     right: 20px;
     width: 80px;
 }
-.rightTopImage::after{
+
+.rightTopImage::after {
     width: 120px;
     height: 120px;
     z-index: -5;
@@ -66,48 +79,54 @@ h1{
     position: absolute;
     right: -90px;
     top: 20px;
-    border-radius:  50px ;
+    border-radius: 50px;
     transform: rotate(40deg);
 }
-.rightTopImage img{
+
+.rightTopImage img {
     width: 70%;
     position: absolute;
     top: 0;
     right: 0;
 }
-.rightTopImage img:last-child{
+
+.rightTopImage img:last-child {
     right: 45px;
     width: 140%;
 }
 
-.rightBottomImage{
+.rightBottomImage {
     width: 200px;
     height: 200px;
     position: absolute;
     bottom: -10px;
     right: 0;
 }
-.rightBottomImage img{
+
+.rightBottomImage img {
     position: absolute;
     right: 0;
 }
-.rightBottomImage img:last-child{
+
+.rightBottomImage img:last-child {
     top: 100px;
 }
 
 
-.leftCenterImage img{
+.leftCenterImage img {
     position: absolute;
     top: 60%;
     left: 15%;
     width: 100px;
 }
-.leftCenterImage img:last-child{
+
+.leftCenterImage img:last-child {
 
     top: 35%;
     left: 10%;
 }
-.leftTopImage::after{
+
+.leftTopImage::after {
     content: '';
     position: absolute;
     top: 0px;
@@ -119,12 +138,14 @@ h1{
     transform: rotate(10deg);
     z-index: -2;
 }
-.leftTopImage img{
+
+.leftTopImage img {
     position: absolute;
     top: 50px;
     left: -50px;
 
 }
+
 /* banner  */
 
 
@@ -133,7 +154,7 @@ h1{
 
 .program {
     width: 100%;
-    min-height:100vh ;
+    min-height: 100vh;
     background-image: url(../img/2.png);
     display: flex;
     align-items: center;
@@ -141,35 +162,40 @@ h1{
     background-position: center;
     background-attachment: fixed;
 }
- h2{
+
+h2 {
     color: #484e5a;
     font-size: 50px;
 }
+
 /* program section  */
 
 /* three program section  */
-.threeProgram{
+.threeProgram {
     text-align: center;
 }
-.threeProgram img{
+
+.threeProgram img {
     width: 100%;
     max-width: 100px;
     height: 100px;
     margin-bottom: 20px;
 }
-.threeProgram h4{
+
+.threeProgram h4 {
     margin: 0;
     color: #484e5a;
     font-weight: 700;
     margin-bottom: 10px;
 }
-.threeProgram p{
+
+.threeProgram p {
     margin: 0;
 }
 
 /* three program section  */
 /* pranayam */
-.pranayam{
+.pranayam {
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -177,78 +203,96 @@ h1{
     display: flex;
     align-items: center;
 }
-.sectionSpace{
+
+.sectionSpace {
     margin: 100px auto;
 }
-.socialMedia{
-    display:flex;
+
+.socialMedia {
+    display: flex;
 
 }
-.socialMediaIndividual{
+
+.socialMediaIndividual {
     margin-right: 30px;
 }
-.socialMediaIndividual .fa-brands{
+
+.socialMediaIndividual .fa-brands {
     font-size: 35px;
     color: #fff;
 }
-.pranayam .col-lg-6{
+
+.pranayam .col-lg-6 {
     margin: 20px 0;
 }
-.pranayamLeftTopImage{
+
+.pranayamLeftTopImage {
     width: 300px;
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -1;
     height: 100%;
 }
-.pranayamLeftTopImage img{
+
+.pranayamLeftTopImage img {
     position: absolute;
     z-index: -2;
     top: 0;
 }
-.pranayamLeftTopImage img:last-child{
+
+.pranayamLeftTopImage img:last-child {
     top: 80%;
     left: 0;
 }
-.imageSection{
+
+.imageSection {
     position: relative;
 }
-.imageSection .frameTopleft{
+
+.imageSection .frameTopleft {
     position: absolute;
     top: -20px;
     left: -40px;
     z-index: -2;
 }
-.imageSection .frameTopleft img{
+
+.imageSection .frameTopleft img {
     position: absolute;
     top: -20px;
     left: -20px;
 }
-.imageSection .frameTopleft img:last-child{
+
+.imageSection .frameTopleft img:last-child {
     left: -50px;
 }
+
 .imageSection .frameTopRight {
     position: absolute;
     top: -50px;
     right: -80px;
     z-index: -2;
 }
+
 .imageSection .frameBottomLeft {
     position: absolute;
     bottom: -10px;
     left: -45px;
 }
+
 .imageSection .frameBottomRight {
     position: absolute;
     bottom: -10px;
     right: -10px;
 }
-.imageSection .frameBottomRight img{
+
+.imageSection .frameBottomRight img {
     position: absolute;
     bottom: -10px;
     right: -10px;
 }
-.imageSection .frameBottomRight img:last-child{
+
+.imageSection .frameBottomRight img:last-child {
     position: absolute;
     bottom: -60px;
     width: 180px;
@@ -256,6 +300,7 @@ h1{
     transform: rotate(-80deg);
     z-index: -2;
 }
+
 /* joinNow   */
 
 .joinNow {
@@ -270,14 +315,16 @@ h1{
     margin-bottom: 0;
     overflow: hidden;
 }
+
 /* gallerySectionParent  */
 .gallerySectionParent {
     text-align: center;
     position: relative;
-    overflow: hidden;    
+    overflow: hidden;
     padding: 100px 0;
 }
-.gallerySectionParent .GallerySection{
+
+.gallerySectionParent .GallerySection {
     margin: 10px 30px;
     background-color: #fff;
     border-radius: 5px;
@@ -285,16 +332,19 @@ h1{
     padding-bottom: 20px;
     box-shadow: 2px 2px 5px -2px;
 }
-.gallerySectionParent .GallerySection h4{
+
+.gallerySectionParent .GallerySection h4 {
     padding: 10px 10px;
     font-size: 30px;
     color: #484e5a;
 }
-.gallerySectionParent .GallerySection p{
+
+.gallerySectionParent .GallerySection p {
     padding: 0px 10px 10px;
     margin: 0;
 }
-.gallerySectionImages{
+
+.gallerySectionImages {
     position: absolute;
     top: 0;
     left: 0;
@@ -302,144 +352,255 @@ h1{
     height: 100%;
     z-index: -1;
 }
-.gallerySectionImages .topLeft{
+
+.gallerySectionImages .topLeft {
     position: absolute;
     top: 0;
     left: 0;
 }
-.gallerySectionImages .topLeft img{
+
+.gallerySectionImages .topLeft img {
     position: absolute;
     top: 170px;
     left: 80px;
 }
-.gallerySectionImages .topRight{
+
+.gallerySectionImages .topRight {
     position: absolute;
     top: 0;
     right: 0;
 }
-.gallerySectionImages .topRight img{
+
+.gallerySectionImages .topRight img {
     position: absolute;
     top: -50px;
     right: -90px;
 }
-.gallerySectionImages .topCenter{
+
+.gallerySectionImages .topCenter {
     position: absolute;
-    top:60%;
+    top: 60%;
     right: 30%;
 }
-.gallerySectionImages .topCenter img{
+
+.gallerySectionImages .topCenter img {
     position: absolute;
     top: -50px;
     right: -90px;
 }
-.gallerySectionImages .bottomLeft{
+
+.gallerySectionImages .bottomLeft {
     position: absolute;
     bottom: -50px;
     left: -50px;
 }
-.gallerySectionImages .bottomLeft img{
+
+.gallerySectionImages .bottomLeft img {
     position: absolute;
     bottom: 0px;
     left: 0px;
 }
-.gallerySectionImages .bottomRight{
+
+.gallerySectionImages .bottomRight {
     position: absolute;
     bottom: -0px;
     right: -0px;
 }
-.gallerySectionImages .bottomRight img{
+
+.gallerySectionImages .bottomRight img {
     position: absolute;
     bottom: 0px;
     right: 0px;
 }
+
 /* yogaTraining */
 
 .yogaTraining {
     padding: 100px 0;
     background-color: #f0c9c3;
-    
+
 }
-.yogaTraining .fa-brands{
+
+.yogaTraining .fa-brands {
     color: #484e5a;
 }
+
+.videoSection {
+    position: relative;
+}
+
+.videoSection .playButton {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.videoSection .playButton .fa-play {
+    color: #fff;
+    font-size: 50px;
+}
+
 /* getInTouch  */
-.getInTouch{
+.getInTouch {
     padding: 100px 0;
     position: relative;
     overflow: hidden;
 }
+
 /* footer  */
-footer{
+footer {
     padding: 50px 0;
     background-color: #484e5a;
     color: #fff;
 }
-footer h4{
+
+footer h4 {
     margin-bottom: 40px;
 }
-footer h4 + p{
+
+footer h4+p {
     margin-bottom: 40px;
 }
-footer p{
+
+footer p {
     margin: 10px 0;
     color: #fff;
     font-weight: 400;
 }
+
 footer a {
     text-decoration: none;
     color: #fff;
 }
+
+.addAnimation {
+    animation: jigglejiggle 2s ease-in-out infinite;
+}
+
+@keyframes jigglejiggle {
+    0% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
 @media (max-width:991px) {
-    h1{
+    h1 {
         font-size: 30px;
     }
-    p{
+
+    p {
         margin: 10px 0;
     }
-    h2{
+
+    h2 {
         font-size: 30px;
     }
-    .threeProgram .col-md-4{
+
+    .threeProgram .col-md-4 {
         margin: 20px 0;
     }
-    .sectionSpace{
+
+    .sectionSpace {
         margin: 30px auto;
     }
-    .program{
+
+    .program {
         background-position: left;
     }
-    
+
 }
+
 @media (max-width:576px) {
-    .leftTopImage img{
+    .leftTopImage img {
         width: 200px;
         top: 70px;
     }
-    .leftTopImage::after{
+
+    .leftTopImage::after {
         width: 100px;
         left: -30px;
-        height:150px;
+        height: 150px;
     }
-    .leftCenterImage img{
+
+    .leftCenterImage img {
         display: none;
     }
+
     .banner {
         padding: 100px 0;
     }
-    .rightBottomImage img{
+
+    .rightBottomImage img {
         width: 150px;
         top: 80px;
     }
-    h2{
+
+    h2 {
         font-size: 26px;
     }
-    .frameSide img{
+
+    .frameSide img {
         width: 100px;
     }
-    .imageSection{
+
+    .imageSection {
         margin-top: 50px;
     }
-    .joinNow{
+
+    .joinNow {
         background-position: right;
+    }
+
+    .gallerySectionImages .topLeft {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .gallerySectionImages .topRight {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .gallerySectionImages .bottomLeft {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .gallerySectionImages .bottomRight {
+        height: 100px;
+        width: 100px;
+    }
+    .gallerySectionImages .topLeft img{
+        width: 100px;
+        left: 20px;
+        top: 200px;
+    }
+
+    .gallerySectionImages .topRight img{
+        width: 100px;
+    }
+
+    .gallerySectionImages .bottomLeft img{
+        width: 100px;
+    }
+
+    .gallerySectionImages .bottomRight img{
+        width: 100px;
     }
 }

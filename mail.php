@@ -5,12 +5,10 @@
    $name = $_POST['name'];
    $email = $_POST['email'];
    $message = $_POST['message'];
-   $to = "shahayush480@gmail.com" . $email;
+   $to = "shahayush480@gmail.com, $email";
    $subject = "Contact Us";
    // Email Template
-   $message .= "<b>Name: </b>".$name."<br>".
-   "<b>Email Address : </b>".$email."<br>".
-   "<b>Email Address : </b>".$message."<br>"
+   $message .= "<b>Name: </b>".$name."<br> <b>Email Address : </b>".$email."<br> <b>Email Address : </b>".$message."<br>"
    
    ;
 
